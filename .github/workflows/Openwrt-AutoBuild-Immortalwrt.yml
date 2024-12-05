@@ -13,9 +13,9 @@ name: Openwrt-AutoBuild-Immortalwrt
 #    - cron: 0 0 * * *
 on:
   workflow_dispatch:  # 手动触发
-  push:
-    paths:
-      - '.github/workflows/Openwrt-AutoBuild-Immortalwrt.yml'
+#  push:
+#    paths:
+#      - '.github/workflows/Openwrt-AutoBuild-Immortalwrt.yml'
 
 permissions:
   contents: read
